@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanmay | Data Analyst & AI/ML Enthusiast Portfolio</title>
+  <meta name="description" content="Portfolio of Tanmay - Data Analyst and AI/ML Enthusiast specializing in Python, Scikit-Learn, Power BI, Advanced Excel, and Predictive Modeling.">
+  <meta name="keywords" content="Data Analyst, Machine Learning, AI, Python, Power BI, Scikit-Learn, Excel, SQL, Portfolio, Tanmay">
+  <meta name="author" content="Tanmay">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tanmay | Data Analyst & AI/ML Specialist">
+  <meta property="og:description" content="Turning complex data into actionable intelligence and predictive machine learning models.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Chart.js for Live Interactive BI & Data Visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand" aria-label="Tanmay Homepage">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-name">Tanmay</span>
+        <span class="brand-dot">.</span>
+        <span class="brand-tag">analytics</span>
+        <span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills & Stack</a></li>
+        <li><a href="#playground" class="nav-link">Interactive Lab</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-item">
+          <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+            <span>Hire Me</span>
+            <i class="fa-solid fa-arrow-trend-up"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="status-pill" data-aos="fade-down">
+            <span class="pulse-indicator"></span>
+            <span>Available for Data Analyst & ML Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Tanmay</span>.<br>
+            I turn raw data into <span class="text-highlight">intelligent action</span>.
+          </h1>
+
+          <div class="typewriter-container">
+            <span class="type-prefix">Specialized in:</span>
+            <span class="typewriter-text" id="typewriterText">Data Analytics</span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-desc">
+            Bridging the gap between messy datasets and high-impact business decisions. Expert in <strong>Python</strong>, <strong>Power BI</strong>, <strong>Advanced Excel</strong>, and <strong>Scikit-Learn</strong> machine learning workflows.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>View Case Studies</span>
+            </a>
+            <a href="#playground" class="btn btn-secondary">
+              <i class="fa-solid fa-flask-vial"></i>
+              <span>Try Live ML Lab</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost" title="Direct Contact">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Social Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:tanmay.analyst@example.com" class="social-icon" aria-label="Email Tanmay">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="#contact" class="social-icon" aria-label="Kaggle Profile">
+              <i class="fa-brands fa-kaggle"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Glass Graphic Card / Dashboard Snippet -->
+        <div class="hero-visual">
+          <div class="glass-card hero-dashboard-card">
+            <div class="card-header-bar">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="card-title-snippet">
+                <i class="fa-brands fa-python text-accent-cyan"></i> pipeline_v2.py — Scikit-Learn Inference
+              </div>
+              <span class="badge-live">LIVE</span>
+            </div>
+
+            <!-- Mini Live Stat Grid -->
+            <div class="hero-stat-grid">
+              <div class="stat-box">
+                <span class="stat-label">Model Precision</span>
+                <span class="stat-val gradient-cyan" id="statAccuracy">98.4%</span>
+                <span class="stat-sub">ROC-AUC: 0.991</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Records Processed</span>
+                <span class="stat-val gradient-purple">500K+</span>
+                <span class="stat-sub">ETL Cleansed</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Power BI KPIs</span>
+                <span class="stat-val gradient-green">30+</span>
+                <span class="stat-sub">Automated DAX</span>
+              </div>
+            </div>
+
+            <!-- Visual Feature Importance Mini-Chart -->
+            <div class="mini-chart-container">
+              <div class="mini-chart-header">
+                <span><i class="fa-solid fa-network-wired"></i> Feature Importance (SHAP values)</span>
+                <span class="text-muted">Top Predictors</span>
+              </div>
+              <div class="feature-bar-item">
+                <div class="feature-name-row">
+                  <span>Customer Tenure (mo)</span>
+                  <span class="feature-val">34.2%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill fill-cyan" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="feature-bar-item">
+                <div class="feature-name-row">
+                  <span>Avg Monthly Spend</span>
+                  <span class="feature-val">28.7%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill fill-purple" style="width: 71%;"></div>
+                </div>
+              </div>
+              <div class="feature-bar-item">
+                <div class="feature-name-row">
+                  <span>Support Tickets Count</span>
+                  <span class="feature-val">19.5%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill fill-amber" style="width: 52%;"></div>
+                </div>
+              </div>
+              <div class="feature-bar-item">
+                <div class="feature-name-row">
+                  <span>Contract Duration</span>
+                  <span class="feature-val">17.6%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill fill-green" style="width: 44%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Terminal output footer -->
+            <div class="card-terminal-log">
+              <span class="term-prompt">&gt;</span>
+              <span class="term-msg">RandomForestClassifier(n_estimators=200, max_depth=8).fit(X_train, y_train)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Key Metrics Highlight Ribbon -->
+    <section class="metrics-ribbon">
+      <div class="container ribbon-grid">
+        <div class="ribbon-item">
+          <div class="ribbon-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <div class="ribbon-info">
+            <span class="ribbon-number">15+</span>
+            <span class="ribbon-title">Analytics & ML Projects</span>
+          </div>
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon"><i class="fa-brands fa-python"></i></div>
+          <div class="ribbon-info">
+            <span class="ribbon-number">100%</span>
+            <span class="ribbon-title">Reproducible Python Code</span>
+          </div>
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon"><i class="fa-solid fa-table-cells"></i></div>
+          <div class="ribbon-info">
+            <span class="ribbon-number">40+</span>
+            <span class="ribbon-title">Power BI & Excel Dashboards</span>
+          </div>
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="ribbon-info">
+            <span class="ribbon-number">95%+</span>
+            <span class="ribbon-title">Predictive Model Accuracy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-badge">ABOUT ME</div>
+        <h2 class="section-title">Deciphering Complexity with <span class="gradient-text">Statistical Rigor</span></h2>
+        <p class="section-subtitle">
+          From data scraping and cleaning to feature engineering and executive dashboard storytelling.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-text-card glass-card">
+            <h3>My Philosophy: Data Without Action is Just Noise</h3>
+            <p>
+              I am a dedicated <strong>Data Analyst</strong> and <strong>AI/ML Enthusiast</strong> passionate about transforming fragmented, unstructured numbers into clear business roadmaps. Whether discovering hidden customer churn drivers through <strong>Scikit-Learn</strong> or architecting real-time enterprise KPI models in <strong>Power BI</strong> and <strong>Excel</strong>, I focus on measurable impact.
+            </p>
+            <p>
+              My workflow bridges every step of the analytical pipeline: exploratory data analysis (EDA), statistical hypothesis testing, automated data wrangling with <strong>Pandas & NumPy</strong>, algorithmic modeling, and executive-ready visualization.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-double highlight-icon"></i>
+                <div>
+                  <strong>End-to-End ML Pipeline Architecture:</strong>
+                  <span>Feature scaling, one-hot encoding, train/test split, hyperparameter tuning via GridSearchCV.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-double highlight-icon"></i>
+                <div>
+                  <strong>Enterprise BI & DAX Mastery:</strong>
+                  <span>Calculated measures, Time Intelligence, Star Schema data modeling, and What-If scenario parameters.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check-double highlight-icon"></i>
+                <div>
+                  <strong>Advanced Spreadsheet Modeling:</strong>
+                  <span>Power Query (M), dynamic array formulas, nested XLOOKUPs, automated macro reporting.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Analytical Pillars Cards -->
+          <div class="pillars-container">
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-cyan">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Python & Machine Learning</h4>
+                <p>Scikit-Learn, Pandas, NumPy, predictive modeling, classification, regression, clustering & sentiment analysis.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-yellow">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Power BI & Business Intelligence</h4>
+                <p>DAX expressions, dynamic KPI scorecards, drill-through reports, interactive executive dashboards.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-green">
+                <i class="fa-solid fa-file-excel"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>Advanced Excel & Financial Logic</h4>
+                <p>Power Query ETL, VBA automation, pivot intelligence, sensitivity tables, financial variance analysis.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon bg-purple">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="pillar-content">
+                <h4>SQL & Data Transformation</h4>
+                <p>Complex window functions (ROW_NUMBER, DENSE_RANK), multi-table joins, subqueries, CTEs, schema optimization.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Tech Stack Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-badge">TOOLKIT & COMPETENCIES</div>
+        <h2 class="section-title">The Modern <span class="gradient-text">Data Science & Analytics</span> Stack</h2>
+        <p class="section-subtitle">
+          Mastered tools and libraries deployed to analyze, visualize, and predict real-world phenomena.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="skill-tabs" role="tablist">
+          <button class="skill-tab active" data-filter="all">All Skills</button>
+          <button class="skill-tab" data-filter="ai-ml">AI & Machine Learning</button>
+          <button class="skill-tab" data-filter="bi">BI & Analytics</button>
+          <button class="skill-tab" data-filter="languages">Languages & DB</button>
+          <button class="skill-tab" data-filter="libraries">Libraries & Tools</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Skill: Python -->
+          <div class="skill-card glass-card" data-category="languages ai-ml">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-cyan">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Python</h4>
+                <span class="skill-level">Core Proficiency</span>
+              </div>
+            </div>
+            <p class="skill-desc">Data wrangling, script automation, algorithmic modeling, REST APIs & web scraping.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 92%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>NumPy</span><span>Pandas</span><span>OOP</span>
+            </div>
+          </div>
+
+          <!-- Skill: Scikit-Learn -->
+          <div class="skill-card glass-card" data-category="ai-ml libraries">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-orange">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Scikit-Learn</h4>
+                <span class="skill-level">Advanced ML</span>
+              </div>
+            </div>
+            <p class="skill-desc">Classification, Random Forests, SVM, Linear/Logistic Regression, K-Means Clustering, PCA.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 88%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Pipelines</span><span>Cross-Val</span><span>GridSearchCV</span>
+            </div>
+          </div>
+
+          <!-- Skill: Power BI -->
+          <div class="skill-card glass-card" data-category="bi">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-yellow">
+                <i class="fa-solid fa-chart-simple"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Microsoft Power BI</h4>
+                <span class="skill-level">Enterprise BI</span>
+              </div>
+            </div>
+            <p class="skill-desc">Dynamic reporting, DAX calculations, Star Schema relational models, custom visuals.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 90%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>DAX</span><span>Power Query</span><span>Data Modeling</span>
+            </div>
+          </div>
+
+          <!-- Skill: Advanced Excel -->
+          <div class="skill-card glass-card" data-category="bi">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-green">
+                <i class="fa-solid fa-file-excel"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Advanced Excel</h4>
+                <span class="skill-level">Modeling & ETL</span>
+              </div>
+            </div>
+            <p class="skill-desc">XLOOKUP, Power Pivot, dynamic arrays, VBA macros, automated financial and KPI dashboards.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 95%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Power Pivot</span><span>VBA</span><span>Solver</span>
+            </div>
+          </div>
+
+          <!-- Skill: SQL -->
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-purple">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>SQL (PostgreSQL / MySQL)</h4>
+                <span class="skill-level">Data Extraction</span>
+              </div>
+            </div>
+            <p class="skill-desc">Complex joins, aggregation, Window functions (OVER, PARTITION BY), CTEs, indexing.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 86%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Joins</span><span>Window Functions</span><span>CTEs</span>
+            </div>
+          </div>
+
+          <!-- Skill: Pandas & NumPy -->
+          <div class="skill-card glass-card" data-category="libraries ai-ml">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-blue">
+                <i class="fa-solid fa-cubes-stacked"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Pandas & NumPy</h4>
+                <span class="skill-level">Data Manipulation</span>
+              </div>
+            </div>
+            <p class="skill-desc">Vectorized calculations, multi-indexing, data cleaning, datetime analysis & merging.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 94%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>DataFrames</span><span>Vectorization</span><span>Imputation</span>
+            </div>
+          </div>
+
+          <!-- Skill: Matplotlib & Seaborn -->
+          <div class="skill-card glass-card" data-category="libraries bi">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-pink">
+                <i class="fa-solid fa-chart-area"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Matplotlib & Seaborn</h4>
+                <span class="skill-level">Statistical Viz</span>
+              </div>
+            </div>
+            <p class="skill-desc">Distribution plots, correlation heatmaps, violin plots, regression trendlines for EDA.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 88%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Heatmaps</span><span>Distributions</span><span>Subplots</span>
+            </div>
+          </div>
+
+          <!-- Skill: Git & Jupyter -->
+          <div class="skill-card glass-card" data-category="libraries">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper text-teal">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <div class="skill-meta">
+                <h4>Git & Jupyter Lab</h4>
+                <span class="skill-level">Workflow & Versioning</span>
+              </div>
+            </div>
+            <p class="skill-desc">Version control, reproducible notebook documentation, collaborative workflows on GitHub.</p>
+            <div class="skill-meter">
+              <div class="skill-meter-fill" style="width: 89%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span>Version Control</span><span>Jupyter</span><span>VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE DATA & ML INTERACTIVE PLAYGROUND (WOW Factor) -->
+    <section class="section playground-section" id="playground">
+      <div class="container">
+        <div class="section-badge"><i class="fa-solid fa-flask"></i> INTERACTIVE LAB</div>
+        <h2 class="section-title">Experience My Work <span class="gradient-text">Live In Your Browser</span></h2>
+        <p class="section-subtitle">
+          Test real-time data visualizers and a live machine learning simulation engine built right into this portfolio.
+        </p>
+
+        <!-- Playground Tabs -->
+        <div class="lab-card glass-card">
+          <div class="lab-navigation">
+            <button class="lab-nav-btn active" data-tab="tab-ml-sim">
+              <i class="fa-solid fa-robot"></i>
+              <span>ML Churn Predictor (Scikit-Learn Sim)</span>
+            </button>
+            <button class="lab-nav-btn" data-tab="tab-bi-dash">
+              <i class="fa-solid fa-chart-pie"></i>
+              <span>Live BI Analytics Dashboard</span>
+            </button>
+            <button class="lab-nav-btn" data-tab="tab-sql-matrix">
+              <i class="fa-solid fa-code"></i>
+              <span>SQL & DAX Formula Studio</span>
+            </button>
+          </div>
+
+          <!-- TAB 1: Live Machine Learning Simulator -->
+          <div class="lab-tab-content active" id="tab-ml-sim">
+            <div class="sim-grid">
+              <div class="sim-controls">
+                <div class="sim-header">
+                  <h4><i class="fa-solid fa-sliders text-accent-cyan"></i> Feature Parameter Inputs</h4>
+                  <p class="text-muted">Adjust customer attributes to compute real-time churn probability.</p>
+                </div>
+
+                <!-- Input 1: Customer Tenure -->
+                <div class="control-group">
+                  <div class="control-label-row">
+                    <label for="tenureSlider">Account Tenure (Months):</label>
+                    <span class="control-badge" id="tenureVal">14 mo</span>
+                  </div>
+                  <input type="range" id="tenureSlider" min="1" max="72" value="14" class="custom-range">
+                  <div class="range-sub"><span>1 month (New)</span><span>72 months (Loyal)</span></div>
+                </div>
+
+                <!-- Input 2: Monthly Charges -->
+                <div class="control-group">
+                  <div class="control-label-row">
+                    <label for="spendSlider">Monthly Spending ($):</label>
+                    <span class="control-badge" id="spendVal">$78.50</span>
+                  </div>
+                  <input type="range" id="spendSlider" min="20" max="150" value="78" class="custom-range">
+                  <div class="range-sub"><span>$20 (Basic)</span><span>$150 (Premium Enterprise)</span></div>
+                </div>
+
+                <!-- Input 3: Support Tickets -->
+                <div class="control-group">
+                  <div class="control-label-row">
+                    <label for="ticketsSlider">Support Tickets Logged:</label>
+                    <span class="control-badge" id="ticketsVal">4 tickets</span>
+                  </div>
+                  <input type="range" id="ticketsSlider" min="0" max="10" value="4" class="custom-range">
+                  <div class="range-sub"><span>0 (Satisfied)</span><span>10 (Severe Friction)</span></div>
+                </div>
+
+                <!-- Input 4: Contract Type -->
+                <div class="control-group">
+                  <label for="contractSelect">Contract Agreement:</label>
+                  <select id="contractSelect" class="custom-select">
+                    <option value="month-to-month">Month-to-Month (High Fluctuation)</option>
+                    <option value="one-year">One Year Fixed Contract</option>
+                    <option value="two-year">Two Year Enterprise Agreement</option>
+                  </select>
+                </div>
+
+                <!-- Input 5: Payment Method -->
+                <div class="control-group">
+                  <label for="paymentSelect">Payment Method:</label>
+                  <select id="paymentSelect" class="custom-select">
+                    <option value="electronic">Electronic Check / Manual</option>
+                    <option value="auto-bank">Automated Bank Transfer</option>
+                    <option value="credit-card">Credit Card Auto-Pay</option>
+                  </select>
+                </div>
+
+                <button class="btn btn-primary btn-block" id="btnRunInference">
+                  <i class="fa-solid fa-play"></i> Run Scikit-Learn Inference
+                </button>
+              </div>
+
+              <!-- Sim Results Panel -->
+              <div class="sim-output">
+                <div class="output-card glass-card-nested">
+                  <div class="output-top">
+                    <span class="output-badge" id="outputVerdictBadge">MODERATE RISK</span>
+                    <span class="output-algo">Model: Ensemble Classifier</span>
+                  </div>
+
+                  <div class="gauge-section">
+                    <div class="gauge-center">
+                      <span class="gauge-percentage" id="churnPercentage">43.8%</span>
+                      <span class="gauge-label">Predicted Churn Probability</span>
+                    </div>
+                    <div class="gauge-bar-track">
+                      <div class="gauge-bar-fill" id="gaugeBar" style="width: 43.8%; background: linear-gradient(90deg, #10b981, #f59e0b);"></div>
+                    </div>
+                  </div>
+
+                  <div class="model-telemetry">
+                    <div class="telem-item">
+                      <span class="telem-title">Confidence</span>
+                      <span class="telem-val" id="modelConfidence">94.2%</span>
+                    </div>
+                    <div class="telem-item">
+                      <span class="telem-title">Inference Time</span>
+                      <span class="telem-val">12 ms</span>
+                    </div>
+                    <div class="telem-item">
+                      <span class="telem-title">Recommendation</span>
+                      <span class="telem-val text-accent-cyan" id="retentionAction">Discounted Annual Plan Offer</span>
+                    </div>
+                  </div>
+
+                  <!-- Explainability Breakdown -->
+                  <div class="explainability-box">
+                    <h5><i class="fa-solid fa-magnifying-glass-chart"></i> Feature Impact Contribution</h5>
+                    <ul class="impact-list" id="impactList">
+                      <li><span class="impact-dot impact-neg"></span> Support Tickets (+22.4% Risk)</li>
+                      <li><span class="impact-dot impact-pos"></span> Tenure Length (-18.2% Risk)</li>
+                      <li><span class="impact-dot impact-neg"></span> Month-to-Month Contract (+15.6% Risk)</li>
+                    </ul>
+                  </div>
+
+                  <div class="code-pill">
+                    <code>sklearn.ensemble.RandomForestClassifier.predict_proba(X_scaled)</code>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: Live BI Interactive Dashboard -->
+          <div class="lab-tab-content" id="tab-bi-dash">
+            <div class="bi-dashboard-wrapper">
+              <div class="bi-filter-bar">
+                <div class="filter-group">
+                  <label for="biSegmentSelect"><i class="fa-solid fa-filter"></i> Business Segment:</label>
+                  <select id="biSegmentSelect" class="custom-select sm">
+                    <option value="all">All Segments (Consolidated)</option>
+                    <option value="enterprise">Enterprise Tier</option>
+                    <option value="smb">Small & Medium Business (SMB)</option>
+                    <option value="consumer">Direct Consumer (D2C)</option>
+                  </select>
+                </div>
+                <div class="filter-group">
+                  <label for="biMetricSelect"><i class="fa-solid fa-calendar-days"></i> Period:</label>
+                  <select id="biMetricSelect" class="custom-select sm">
+                    <option value="q4">Q4 2024 (Latest)</option>
+                    <option value="q3">Q3 2024</option>
+                    <option value="q2">Q2 2024</option>
+                    <option value="fy2024">Full Year 2024</option>
+                  </select>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="btnResetBIData">
+                  <i class="fa-solid fa-arrows-rotate"></i> Refresh Data
+                </button>
+              </div>
+
+              <!-- Power BI Metric Cards -->
+              <div class="bi-kpi-grid">
+                <div class="bi-kpi-card">
+                  <span class="bi-kpi-title">Gross Revenue</span>
+                  <span class="bi-kpi-val" id="kpiRevenue">$842,500</span>
+                  <span class="bi-kpi-change text-green"><i class="fa-solid fa-arrow-trend-up"></i> +14.2% YoY</span>
+                </div>
+                <div class="bi-kpi-card">
+                  <span class="bi-kpi-title">Customer Lifetime Value (LTV)</span>
+                  <span class="bi-kpi-val" id="kpiLtv">$4,820</span>
+                  <span class="bi-kpi-change text-green"><i class="fa-solid fa-arrow-trend-up"></i> +8.6%</span>
+                </div>
+                <div class="bi-kpi-card">
+                  <span class="bi-kpi-title">Churn Rate</span>
+                  <span class="bi-kpi-val" id="kpiChurn">2.14%</span>
+                  <span class="bi-kpi-change text-cyan"><i class="fa-solid fa-arrow-trend-down"></i> -0.8% Target</span>
+                </div>
+                <div class="bi-kpi-card">
+                  <span class="bi-kpi-title">Model Predictive Lift</span>
+                  <span class="bi-kpi-val" id="kpiLift">3.4x</span>
+                  <span class="bi-kpi-change text-purple"><i class="fa-solid fa-check"></i> High Efficacy</span>
+                </div>
+              </div>
+
+              <!-- Live Chart.js Canvas Grids -->
+              <div class="bi-charts-grid">
+                <div class="chart-box glass-card-nested">
+                  <div class="chart-header">
+                    <h4><i class="fa-solid fa-chart-line text-cyan"></i> Monthly Revenue & Retention Forecast</h4>
+                    <span class="chart-tag">Time Series (ARIMA vs Actual)</span>
+                  </div>
+                  <div class="canvas-wrap">
+                    <canvas id="revenueTrendChart"></canvas>
+                  </div>
+                </div>
+
+                <div class="chart-box glass-card-nested">
+                  <div class="chart-header">
+                    <h4><i class="fa-solid fa-chart-pie text-purple"></i> Revenue by Product Vertical</h4>
+                    <span class="chart-tag">Power BI Distribution</span>
+                  </div>
+                  <div class="canvas-wrap">
+                    <canvas id="productDistChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: SQL & DAX Matrix Studio -->
+          <div class="lab-tab-content" id="tab-sql-matrix">
+            <div class="code-studio-grid">
+              <!-- Left: Query / Formula Selector -->
+              <div class="snippet-selector">
+                <button class="snippet-btn active" data-snippet="sql-window">
+                  <i class="fa-solid fa-database text-cyan"></i>
+                  <div class="snippet-meta">
+                    <strong>Customer Cohort Retention SQL</strong>
+                    <span>Window functions, CTEs & DENSE_RANK</span>
+                  </div>
+                </button>
+                <button class="snippet-btn" data-snippet="dax-yoy">
+                  <i class="fa-solid fa-chart-column text-yellow"></i>
+                  <div class="snippet-meta">
+                    <strong>Power BI DAX: YoY Dynamic Growth</strong>
+                    <span>CALCULATE, SAMEPERIODLASTYEAR, DIVIDE</span>
+                  </div>
+                </button>
+                <button class="snippet-btn" data-snippet="excel-dynamic">
+                  <i class="fa-solid fa-file-excel text-green"></i>
+                  <div class="snippet-meta">
+                    <strong>Advanced Excel: Dynamic Array Matrix</strong>
+                    <span>LAMBDA, BYROW, XLOOKUP & LET formulas</span>
+                  </div>
+                </button>
+                <button class="snippet-btn" data-snippet="sklearn-pipeline">
+                  <i class="fa-brands fa-python text-orange"></i>
+                  <div class="snippet-meta">
+                    <strong>Python Scikit-Learn Pipeline Script</strong>
+                    <span>ColumnTransformer & GridSearchCV Tuning</span>
+                  </div>
+                </button>
+              </div>
+
+              <!-- Right: Code Display with Copy Button -->
+              <div class="snippet-display glass-card-nested">
+                <div class="snippet-topbar">
+                  <span class="snippet-title" id="snippetLanguageTitle">PostgreSQL / BigQuery SQL</span>
+                  <button class="btn btn-ghost btn-sm" id="btnCopySnippet">
+                    <i class="fa-regular fa-copy"></i>
+                    <span id="copySnippetText">Copy Code</span>
+                  </button>
+                </div>
+                <pre class="code-pre"><code id="codeSnippetBox">-- 📊 Customer Cohort Retention Analysis
+WITH user_first_purchase AS (
+    SELECT 
+        customer_id,
+        DATE_TRUNC('month', MIN(order_date)) AS cohort_month
+    FROM transactions
+    WHERE status = 'Completed'
+    GROUP BY customer_id
+),
+monthly_activity AS (
+    SELECT 
+        t.customer_id,
+        u.cohort_month,
+        DATE_TRUNC('month', t.order_date) AS activity_month,
+        (EXTRACT(YEAR FROM t.order_date) - EXTRACT(YEAR FROM u.cohort_month)) * 12 +
+        (EXTRACT(MONTH FROM t.order_date) - EXTRACT(MONTH FROM u.cohort_month)) AS period_number
+    FROM transactions t
+    JOIN user_first_purchase u ON t.customer_id = u.customer_id
+    GROUP BY 1, 2, 3, 4
+)
+SELECT 
+    cohort_month,
+    period_number,
+    COUNT(DISTINCT customer_id) AS active_users,
+    ROUND(COUNT(DISTINCT customer_id)::DECIMAL / 
+          FIRST_VALUE(COUNT(DISTINCT customer_id)) OVER (PARTITION BY cohort_month ORDER BY period_number) * 100, 2) AS retention_rate_pct
+FROM monthly_activity
+GROUP BY cohort_month, period_number
+ORDER BY cohort_month ASC, period_number ASC;</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Projects & Case Studies -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-badge">PORTFOLIO OF WORK</div>
+        <h2 class="section-title">Featured Projects & <span class="gradient-text">Analytical Case Studies</span></h2>
+        <p class="section-subtitle">
+          Real problem statements solved with predictive modeling, statistical testing, and automated business dashboards.
+        </p>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="p-filter-btn active" data-pfilter="all">All Projects</button>
+          <button class="p-filter-btn" data-pfilter="ml">Machine Learning & AI</button>
+          <button class="p-filter-btn" data-pfilter="powerbi">Power BI Dashboards</button>
+          <button class="p-filter-btn" data-pfilter="excel">Advanced Excel</button>
+          <button class="p-filter-btn" data-pfilter="python">Python & EDA</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- PROJECT 1: Telecom Customer Churn Prediction Engine -->
+          <article class="project-card glass-card" data-category="ml python">
+            <div class="project-header-img churn-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-brain"></i> Machine Learning
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">92.6%</span>
+                <span class="p-sub">ROC-AUC Score</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Python</span>
+                <span class="tag-tech">Scikit-Learn</span>
+                <span class="tag-tech">XGBoost</span>
+                <span class="tag-tech">SMOTE</span>
+              </div>
+
+              <h3 class="project-name">Customer Churn Prediction & Retention Optimization</h3>
+              <p class="project-summary">
+                Built an end-to-end classification system on 7,000+ subscriber records. Applied SMOTE to balance class distribution, feature engineering for tenure elasticity, and optimized hyper-parameters with GridSearchCV to identify at-risk customers prior to contract cancellation.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Prevented estimated $120K annual subscription churn</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>SHAP explainability tree integrated for customer success teams</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#playground" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-play"></i> Live Demo
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <i class="fa-brands fa-github"></i> Code Repo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Executive Sales & Profitability Power BI -->
+          <article class="project-card glass-card" data-category="powerbi excel">
+            <div class="project-header-img powerbi-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-chart-pie"></i> Business Intelligence
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">50+</span>
+                <span class="p-sub">Dynamic DAX Measures</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Power BI</span>
+                <span class="tag-tech">DAX</span>
+                <span class="tag-tech">Power Query</span>
+                <span class="tag-tech">Star Schema</span>
+              </div>
+
+              <h3 class="project-name">Enterprise Omnichannel Sales & Profit Analytics</h3>
+              <p class="project-summary">
+                Designed an executive dashboard connecting multi-region ERP sales transactions. Built custom Star Schema architecture, dynamic calendar dimensions, What-If profit margin simulations, and automated drill-through for regional category directors.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Replaced 15 hours of manual weekly reporting with instant sync</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Highlighted negative-margin SKUs saving $45K quarterly</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm modal-trigger" data-modal="modal-powerbi">
+                  <i class="fa-solid fa-eye"></i> View Insights
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <i class="fa-solid fa-file-powerpoint"></i> Documentation
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Real Estate Valuation & Regression Model -->
+          <article class="project-card glass-card" data-category="ml python">
+            <div class="project-header-img realestate-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-house-laptop"></i> Predictive Analytics
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">0.89</span>
+                <span class="p-sub">R² Variance Score</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Python</span>
+                <span class="tag-tech">Scikit-Learn</span>
+                <span class="tag-tech">Random Forest</span>
+                <span class="tag-tech">Seaborn</span>
+              </div>
+
+              <h3 class="project-name">Housing Market Valuation & Price Prediction Engine</h3>
+              <p class="project-summary">
+                Multivariate regression algorithm predicting property closing valuations using spatial, architectural, and macroeconomic variables. Handled multicollinearity via VIF analysis and implemented log-transformations for skewed price distributions.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>RMSE reduced by 23% compared to baseline linear models</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Automated outlier detection and residual analysis visualizer</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> View Notebook
+                </a>
+                <a href="#playground" class="btn btn-ghost btn-sm">
+                  <i class="fa-solid fa-table"></i> Dataset Specs
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Automated Financial Audit & Variance Model in Excel -->
+          <article class="project-card glass-card" data-category="excel powerbi">
+            <div class="project-header-img excel-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-file-excel"></i> Advanced Modeling
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">98%</span>
+                <span class="p-sub">Manual Time Saved</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Advanced Excel</span>
+                <span class="tag-tech">Power Query (M)</span>
+                <span class="tag-tech">VBA Macros</span>
+                <span class="tag-tech">Financial Logic</span>
+              </div>
+
+              <h3 class="project-name">Automated Financial Reconciliation & Audit Dashboard</h3>
+              <p class="project-summary">
+                Engineered an enterprise Excel spreadsheet pipeline that consolidates 12 branch ledgers automatically using Power Query M code, runs variance checks with dynamic array formulas, and generates PDF executive summaries via one-click VBA triggers.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Zero formula lag using 64-bit Power Pivot data cache</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Dynamic sensitivity matrix & Breakeven scenario modeling</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm modal-trigger" data-modal="modal-excel">
+                  <i class="fa-solid fa-expand"></i> View Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <i class="fa-solid fa-download"></i> Sample Template
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Customer Sentiment & NLP Feedback Classifier -->
+          <article class="project-card glass-card" data-category="ml python">
+            <div class="project-header-img nlp-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-comments"></i> NLP & AI
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">25K+</span>
+                <span class="p-sub">Reviews Analyzed</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Python</span>
+                <span class="tag-tech">Scikit-Learn</span>
+                <span class="tag-tech">TF-IDF</span>
+                <span class="tag-tech">NLTK</span>
+              </div>
+
+              <h3 class="project-name">E-Commerce Feedback Sentiment & Aspect Mining</h3>
+              <p class="project-summary">
+                Scraped and processed over 25,000 product reviews to discover customer friction points. Built tokenization, lemmatization, and TF-IDF vector pipelines feeding into a Multinomial Naive Bayes and Logistic Regression model with 89% accuracy.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Discovered critical delivery packaging issues affecting 14% of buyers</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Exported automated sentiment trends directly into Power BI</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> GitHub Source
+                </a>
+                <a href="#skills" class="btn btn-ghost btn-sm">
+                  <i class="fa-solid fa-chart-simple"></i> Methodology
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Healthcare Readmission Risk Classification -->
+          <article class="project-card glass-card" data-category="ml python">
+            <div class="project-header-img health-card-bg">
+              <div class="project-overlay-badge">
+                <i class="fa-solid fa-heart-pulse"></i> Healthcare ML
+              </div>
+              <div class="project-metric-float">
+                <span class="p-num">88.9%</span>
+                <span class="p-sub">Recall Score</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag-tech">Python</span>
+                <span class="tag-tech">Scikit-Learn</span>
+                <span class="tag-tech">Logistic Regression</span>
+                <span class="tag-tech">Pandas</span>
+              </div>
+
+              <h3 class="project-name">Hospital Readmission Predictive Risk Scoring</h3>
+              <p class="project-summary">
+                Analyzed clinical inpatient variables to predict 30-day patient readmission likelihood. Prioritized high sensitivity/recall to minimize false negatives, calibrated decision thresholds using Precision-Recall curves.
+              </p>
+
+              <div class="project-deliverables">
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Optimized threshold to maximize identification of high-risk patients</span>
+                </div>
+                <div class="deliv-item">
+                  <i class="fa-solid fa-check text-accent-cyan"></i>
+                  <span>Full statistical hypothesis testing (Chi-square & Student t-test)</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-github"></i> View Case Study
+                </a>
+                <a href="#playground" class="btn btn-ghost btn-sm">
+                  <i class="fa-solid fa-stethoscope"></i> Clinical KPIs
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience, Education & Certifications Timeline -->
+    <section class="section timeline-section" id="experience">
+      <div class="container">
+        <div class="section-badge">CAREER & EDUCATION</div>
+        <h2 class="section-title">My Journey & <span class="gradient-text">Milestones</span></h2>
+        <p class="section-subtitle">
+          Continuous pursuit of excellence in data engineering, machine learning theory, and business intelligence.
+        </p>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-brain"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">2023 - Present</span>
+              <h4>Data Analyst & Machine Learning Project Lead</h4>
+              <span class="timeline-sub">Academic & Practical Projects | Deep Analytics</span>
+              <p>
+                Lead the architecture and implementation of predictive models with Scikit-Learn and interactive business intelligence systems in Power BI. Extracted insights from millions of rows using SQL and optimized data pipelines with Python & Pandas.
+              </p>
+              <div class="timeline-tags">
+                <span>Scikit-Learn</span><span>Power BI</span><span>Python EDA</span><span>Feature Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">College Degree Program</span>
+              <h4>Undergraduate Studies in Computer Applications / Data Science</h4>
+              <span class="timeline-sub">College / University</span>
+              <p>
+                Focusing on Database Management Systems (DBMS), Applied Statistics, Object-Oriented Programming with Python, Linear Algebra, and Machine Learning algorithms. Consistently placed in the top percentile of coursework.
+              </p>
+              <div class="timeline-tags">
+                <span>DBMS & SQL</span><span>Probability & Statistics</span><span>Data Structures</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-certificate"></i></div>
+            <div class="timeline-content glass-card">
+              <span class="timeline-date">Certifications & Continuous Learning</span>
+              <h4>Professional Credentials in Data Analytics & Machine Learning</h4>
+              <span class="timeline-sub">Industry Recognized Specializations</span>
+              <ul class="cert-list">
+                <li><i class="fa-solid fa-award text-yellow"></i> <strong>Data Analysis with Python:</strong> Pandas, NumPy & Matplotlib Mastery</li>
+                <li><i class="fa-solid fa-award text-cyan"></i> <strong>Machine Learning Specialization:</strong> Supervised & Unsupervised Learning (Scikit-Learn)</li>
+                <li><i class="fa-solid fa-award text-green"></i> <strong>Microsoft Power BI Data Analyst:</strong> DAX, Power Query & Business Storytelling</li>
+                <li><i class="fa-solid fa-award text-purple"></i> <strong>Advanced Excel for Business:</strong> Financial Modeling & Macro Automation</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-badge"><i class="fa-regular fa-paper-plane"></i> GET IN TOUCH</div>
+        <h2 class="section-title">Let's Discuss Your Next <span class="gradient-text">Data Venture</span></h2>
+        <p class="section-subtitle">
+          Have a dataset waiting to be analyzed, an ML model to deploy, or a Power BI dashboard to design? Send me a message!
+        </p>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Information Cards -->
+          <div class="contact-info-panel">
+            <div class="info-card glass-card">
+              <div class="info-icon text-cyan"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-text">
+                <span class="info-label">Direct Email</span>
+                <a href="mailto:tanmay.analyst@example.com" class="info-val">tanmay.analyst@example.com</a>
+                <button class="copy-pill-btn" onclick="copyToClipboard('tanmay.analyst@example.com', this)">
+                  <i class="fa-regular fa-copy"></i> Copy Email
+                </button>
+              </div>
+            </div>
+
+            <div class="info-card glass-card">
+              <div class="info-icon text-purple"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="info-text">
+                <span class="info-label">LinkedIn Networking</span>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="info-val">linkedin.com/in/tanmay-data</a>
+                <span class="text-muted text-xs">Open to full-time, contract & freelance roles</span>
+              </div>
+            </div>
+
+            <div class="info-card glass-card">
+              <div class="info-icon text-orange"><i class="fa-brands fa-github"></i></div>
+              <div class="info-text">
+                <span class="info-label">GitHub Repositories</span>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="info-val">github.com/tanmay-analyst</a>
+                <span class="text-muted text-xs">Clean, documented codebases & Jupyter Notebooks</span>
+              </div>
+            </div>
+
+            <div class="info-card glass-card resume-banner">
+              <div class="info-icon text-green"><i class="fa-solid fa-file-pdf"></i></div>
+              <div class="info-text">
+                <span class="info-label">Official Resume</span>
+                <span class="info-val">Tanmay_Data_Analyst_Resume.pdf</span>
+                <a href="#" class="btn btn-secondary btn-sm mt-2" onclick="alert('Resume download initiated! Customize this link with your actual PDF in index.html.'); return false;">
+                  <i class="fa-solid fa-download"></i> Download Resume
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-panel glass-card">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="senderName"><i class="fa-regular fa-user"></i> Your Name *</label>
+                  <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+                  <span class="error-msg" id="nameError">Please enter your name</span>
+                </div>
+                <div class="form-group">
+                  <label for="senderEmail"><i class="fa-regular fa-envelope"></i> Email Address *</label>
+                  <input type="email" id="senderEmail" name="email" class="form-input" placeholder="s.jenkins@company.com" required>
+                  <span class="error-msg" id="emailError">Please enter a valid email address</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="projectType"><i class="fa-solid fa-layer-group"></i> Project or Opportunity Type</label>
+                <select id="projectType" name="projectType" class="form-input">
+                  <option value="data-analyst">Full-Time / Part-Time Data Analyst Role</option>
+                  <option value="ml-model">Machine Learning / AI Predictive Modeling</option>
+                  <option value="powerbi">Power BI Dashboard Development</option>
+                  <option value="excel">Advanced Excel / Financial Automation</option>
+                  <option value="other">General Inquiries / Collaborative Project</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage"><i class="fa-regular fa-message"></i> Message Details *</label>
+                <textarea id="senderMessage" name="message" rows="5" class="form-input" placeholder="Tell me about your dataset, project objectives, or role timeline..." required></textarea>
+                <span class="error-msg" id="messageError">Please enter a brief message (minimum 10 characters)</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnSubmitForm">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modals for Deep-Dive Insights -->
+  <div class="modal" id="modal-powerbi" role="dialog" aria-hidden="true" aria-labelledby="modalPbiTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog glass-card">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge-accent">CASE STUDY BREAKDOWN</span>
+        <h3 id="modalPbiTitle">Executive Omnichannel Power BI Architecture</h3>
+      </div>
+      <div class="modal-body">
+        <p><strong>Architecture Overview:</strong> Built to consolidate 5 disparate transactional silos (Point of Sale, Online Store, Wholesale CRM, Inventory Ledgers, Returns) into a single high-throughput Star Schema.</p>
+        <h4>Key Technical Implementations:</h4>
+        <ul class="modal-bullets">
+          <li><strong>Data Cleaning & Transformation:</strong> Unpivoted historical monthly forecast sheets and created composite unique keys across stores in Power Query M.</li>
+          <li><strong>Advanced DAX Measures:</strong> Implemented <code>DIVIDE(CALCULATE([Total Margin], SAMEPERIODLASTYEAR('Calendar'[Date])), [Prior Year Sales])</code> with error-handling logic.</li>
+          <li><strong>Role-Based Security (RLS):</strong> Configured dynamic user security so regional directors only see their respective sales territories.</li>
+        </ul>
+        <div class="modal-stat-row">
+          <div class="mstat"><strong>500K+</strong> Rows Analyzed</div>
+          <div class="mstat"><strong>&lt; 1.2s</strong> Query Refresh Rate</div>
+          <div class="mstat"><strong>15+</strong> Department Stakeholders</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-excel" role="dialog" aria-hidden="true" aria-labelledby="modalExcelTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog glass-card">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge-accent">WORKFLOW AUTOMATION</span>
+        <h3 id="modalExcelTitle">Automated Financial Audit & Reconciliation Engine</h3>
+      </div>
+      <div class="modal-body">
+        <p><strong>The Challenge:</strong> Operations teams were manually spending 15 hours each month cross-referencing bank transaction logs against internal sales invoices, resulting in frequent discrepancies.</p>
+        <h4>The Engineered Solution:</h4>
+        <ul class="modal-bullets">
+          <li>Integrated a parameterized Power Query script that ingests any new CSV dropped into a designated network folder.</li>
+          <li>Utilized <code>XLOOKUP</code> with binary search matching and dynamic <code>FILTER</code> arrays to instantly highlight variances exceeding $0.05 tolerance.</li>
+          <li>Built custom VBA module to sanitize and format output sheets, locking audit trails with cryptographic hash verification.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand">Tanmay<span class="text-accent-cyan">.analytics</span></span>
+        <p class="footer-tagline">Data Analyst | AI & ML Enthusiast | Python, Power BI & Excel Specialist</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#playground">Interactive Lab</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p>&copy; 2024-2026 Tanmay. All rights reserved.</p>
+        <span class="built-with">Built with clean Vanilla HTML, Modern CSS & JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
