@@ -69,3 +69,20 @@ d:/College Project/My-Portfolio/
 
 - **GitHub Pages:** Push this repository to GitHub and enable GitHub Pages in repository settings.
 - **Vercel / Netlify:** Drag-and-drop the project folder for instant zero-configuration global deployment.
+# Tanmay Lalge - Portfolio
+
+Personal portfolio website showcasing my skills,
+projects and experience in Data Analytics and AI/ML.
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Chart.js
+- Git
+- GitHub Pages
+
+## Deployment
+
+This portfolio is deployed using GitHub Pages.
