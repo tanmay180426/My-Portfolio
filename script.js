@@ -119,7 +119,7 @@ function initTypewriter() {
     setTimeout(type, typingSpeed);
   }
 
-  type();
+  setTimeout(type, 500);
 }
 
 /* ==========================================================================
